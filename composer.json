@@ -1,6 +1,6 @@
 {
     "name": "evirma/code-pack",
-    "type": "symfony-pack",
+    "type": "pack",
     "license": "MIT",
     "description": "A pack for code analysis and style",
     "require-dev": {
