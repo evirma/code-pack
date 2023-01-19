@@ -8,8 +8,8 @@
         "jetbrains/phpstorm-attributes": "^1.0",
         "nunomaduro/phpinsights": "^2.0",
         "phpmetrics/phpmetrics": "^2.7",
-        "psalm/plugin-symfony": "^3.0",
-        "vimeo/psalm": "^4.13",
+        "psalm/plugin-symfony": "^5.0",
+        "vimeo/psalm": "^5.4",
         "weirdan/doctrine-psalm-plugin": "^2.0"
     },
     "require-dev": {
@@ -17,8 +17,14 @@
         "jetbrains/phpstorm-attributes": "^1.0",
         "nunomaduro/phpinsights": "^2.0",
         "phpmetrics/phpmetrics": "^2.7",
-        "psalm/plugin-symfony": "^3.0",
-        "vimeo/psalm": "^4.13",
+        "psalm/plugin-symfony": "^5.0",
+        "vimeo/psalm": "^5.4",
         "weirdan/doctrine-psalm-plugin": "^2.0"
-    }    
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
 }
